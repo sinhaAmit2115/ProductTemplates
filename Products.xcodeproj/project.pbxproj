@@ -15,6 +15,16 @@
 		62F6746B1C667C4B00D13B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F674691C667C4B00D13B50 /* LaunchScreen.storyboard */; };
 		62F674761C667C4C00D13B50 /* ProductsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674751C667C4C00D13B50 /* ProductsTests.m */; };
 		62F674811C667C4C00D13B50 /* ProductsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674801C667C4C00D13B50 /* ProductsUITests.m */; };
+		62F674911C6682C700D13B50 /* f_one.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F6748F1C6682C700D13B50 /* f_one.json */; };
+		62F674921C6682C700D13B50 /* f_one.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F6748F1C6682C700D13B50 /* f_one.json */; };
+		62F674931C6682C700D13B50 /* f_two.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F674901C6682C700D13B50 /* f_two.json */; };
+		62F674941C6682C700D13B50 /* f_two.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F674901C6682C700D13B50 /* f_two.json */; };
+		62F674A01C66891200D13B50 /* ProductInfoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F6749F1C66891200D13B50 /* ProductInfoParser.m */; };
+		62F674A11C66891200D13B50 /* ProductInfoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F6749F1C66891200D13B50 /* ProductInfoParser.m */; };
+		62F674A41C66897F00D13B50 /* ProductInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674A31C66897F00D13B50 /* ProductInfoModel.m */; };
+		62F674A51C66897F00D13B50 /* ProductInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674A31C66897F00D13B50 /* ProductInfoModel.m */; };
+		62F674A91C668D8F00D13B50 /* ProductItemsInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674A81C668D8F00D13B50 /* ProductItemsInfoModel.m */; };
+		62F674AA1C668D8F00D13B50 /* ProductItemsInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F674A81C668D8F00D13B50 /* ProductItemsInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,15 @@
 		62F6747C1C667C4C00D13B50 /* ProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F674801C667C4C00D13B50 /* ProductsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsUITests.m; sourceTree = "<group>"; };
 		62F674821C667C4C00D13B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F6748F1C6682C700D13B50 /* f_one.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_one.json; sourceTree = "<group>"; };
+		62F674901C6682C700D13B50 /* f_two.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_two.json; sourceTree = "<group>"; };
+		62F6749E1C66891200D13B50 /* ProductInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfoParser.h; sourceTree = "<group>"; };
+		62F6749F1C66891200D13B50 /* ProductInfoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfoParser.m; sourceTree = "<group>"; };
+		62F674A21C66897F00D13B50 /* ProductInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfoModel.h; sourceTree = "<group>"; };
+		62F674A31C66897F00D13B50 /* ProductInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfoModel.m; sourceTree = "<group>"; };
+		62F674A61C6689F600D13B50 /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		62F674A71C668D8F00D13B50 /* ProductItemsInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductItemsInfoModel.h; sourceTree = "<group>"; };
+		62F674A81C668D8F00D13B50 /* ProductItemsInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductItemsInfoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +103,11 @@
 				62F674741C667C4C00D13B50 /* ProductsTests */,
 				62F6747F1C667C4C00D13B50 /* ProductsUITests */,
 				62F6745A1C667C4B00D13B50 /* Products */,
+				62F674A61C6689F600D13B50 /* Enum.h */,
+				62F674971C6686A400D13B50 /* ProductDetail */,
+				62F674961C66845300D13B50 /* Parser */,
+				62F674951C6683AC00D13B50 /* Model */,
+				62F6748E1C6682C700D13B50 /* Resource */,
 				62F674591C667C4B00D13B50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +162,46 @@
 				62F674821C667C4C00D13B50 /* Info.plist */,
 			);
 			path = ProductsUITests;
+			sourceTree = "<group>";
+		};
+		62F6748E1C6682C700D13B50 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62F6748F1C6682C700D13B50 /* f_one.json */,
+				62F674901C6682C700D13B50 /* f_two.json */,
+			);
+			name = Resource;
+			path = Products/Resource;
+			sourceTree = "<group>";
+		};
+		62F674951C6683AC00D13B50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62F674A21C66897F00D13B50 /* ProductInfoModel.h */,
+				62F674A31C66897F00D13B50 /* ProductInfoModel.m */,
+				62F674A71C668D8F00D13B50 /* ProductItemsInfoModel.h */,
+				62F674A81C668D8F00D13B50 /* ProductItemsInfoModel.m */,
+			);
+			name = Model;
+			path = Products/Model;
+			sourceTree = "<group>";
+		};
+		62F674961C66845300D13B50 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				62F6749E1C66891200D13B50 /* ProductInfoParser.h */,
+				62F6749F1C66891200D13B50 /* ProductInfoParser.m */,
+			);
+			name = Parser;
+			path = Products/Parser;
+			sourceTree = "<group>";
+		};
+		62F674971C6686A400D13B50 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProductDetail;
+			path = Products/ProductDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +307,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F674931C6682C700D13B50 /* f_two.json in Resources */,
 				62F6746B1C667C4B00D13B50 /* LaunchScreen.storyboard in Resources */,
+				62F674911C6682C700D13B50 /* f_one.json in Resources */,
 				62F674681C667C4B00D13B50 /* Assets.xcassets in Resources */,
 				62F674661C667C4B00D13B50 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +319,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F674921C6682C700D13B50 /* f_one.json in Resources */,
+				62F674941C6682C700D13B50 /* f_two.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F674A91C668D8F00D13B50 /* ProductItemsInfoModel.m in Sources */,
+				62F674A01C66891200D13B50 /* ProductInfoParser.m in Sources */,
+				62F674A41C66897F00D13B50 /* ProductInfoModel.m in Sources */,
 				62F674631C667C4B00D13B50 /* ViewController.m in Sources */,
 				62F674601C667C4B00D13B50 /* AppDelegate.m in Sources */,
 				62F6745D1C667C4B00D13B50 /* main.m in Sources */,
@@ -280,6 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F674A11C66891200D13B50 /* ProductInfoParser.m in Sources */,
+				62F674A51C66897F00D13B50 /* ProductInfoModel.m in Sources */,
+				62F674AA1C668D8F00D13B50 /* ProductItemsInfoModel.m in Sources */,
 				62F674761C667C4C00D13B50 /* ProductsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
