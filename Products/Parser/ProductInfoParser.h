@@ -10,4 +10,6 @@
 
 @interface ProductInfoParser : NSObject
 
++ (NSArray *)doParse:(id)jsonString;
+
 @end

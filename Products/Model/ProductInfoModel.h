@@ -16,6 +16,8 @@
 @property(nonatomic, assign)ProductTemplateType *templateType; /// template type
 @property(nonatomic, strong)NSArray *itemsArray; /// childs items contain productItemsInfo model objects.
 
+@property(nonatomic, assign)NSInteger sectionIndex;
+
 
 
 
